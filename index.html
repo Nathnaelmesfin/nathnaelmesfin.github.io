@@ -1,0 +1,162 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathnael Mesfin - Front-End Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="matrix-css/style.css">
+    <link rel="stylesheet" href="matrix-css/style.min.css">
+  </head>
+    <body style="opacity: 0.75;">
+      <canvas id="canvas"></canvas>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: rgb(0, 255, 38)">Nathnael Mesfin</a>
+          <button class="navbar-toggler" style="color: rgb(0, 255, 38)" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#hero-section"style="color: rgb(0, 255, 38)">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-section"style="color: rgb(0, 255, 38)">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills-section"style="color: rgb(0, 255, 38)">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio-section"style="color: rgb(0, 255, 38)">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-section"style="color: rgb(0, 255, 38)">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      
+      <section id="hero-section" class="hero-section">
+        
+        <h1 class="hero-heading">
+          <span id="AboutDevTypeText" class="typeing"></span><span class='blinker'>&#32;</span>
+        </h1>
+        
+      </section>
+      
+      <section id="about-section" class="about-section green-outline">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-sm-12">
+              <h1 style="text-align: center;">About</h1>
+              <p style="text-align: center;">
+                I'm Nathnael Mesfin, a front-end web developer with experience in HTML, CSS, JavaScript, PHP, and React.js.
+                I'm passionate about creating beautiful and responsive websites that provide a great user experience. 
+                I'm always learning and exploring new technologies to improve my skills and stay up-to-date with the latest trends in web development.
+              </p>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      
+      <section id="skills-section" class="skills-section green-outline">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>Skills</h2>
+              <p>HTML</p>
+              <div class="skill-progress">
+                <div class="skill-progress-bar" style="width: 100%;"></div>
+              </div>
+              <p>CSS </p>
+              <div class="skill-progress">
+                <div class="skill-progress-bar" style="width: 75%;"></div>
+              </div>
+              <p>JavaScript </p>
+              <div class="skill-progress">
+                <div class="skill-progress-bar" style="width: 50%;"></div>
+              </div>
+              <p>Php </p>
+              <div class="skill-progress">
+                <div class="skill-progress-bar" style="width: 75%;"></div>
+              </div>
+              <p>React </p>
+              <div class="skill-progress">
+                <div class="skill-progress-bar" style="width: 25%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="portfolio-section">
+          <div class="container">
+            <div class="row gy-5">
+              <div class="col-md-12">
+                <h2>Portfolio</h2>
+              </div>
+            </div>
+            <div class="row gy-5">
+              <div class="col-md-4">
+                <div class="card portfolio-section green-outline">
+                  <img src="yegara .png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Yegara Host Clone</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam vel bibendum bibendum, velit sapien bibendum sapien, vel bibendum sapien sapien vel bibendum sapien.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card portfolio-section green-outline">
+                  <img src="Online book store.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Online Book Store</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam vel bibendum bibendum, velit sapien bibendum sapien, vel bibendum sapien sapien vel bibendum sapien.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+      <section id="contact-section" class="contact-section green-outline">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Contact</h2>
+              <form class="contact-form">
+                <div class="form-group">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" id="name" name="name" class="form-input" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" class="form-input" required>
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" id="email" name="email" class="form-input" required>
+                </div>
+                <div class="form-group">
+                  <label for="comment" class="form-label">Comment</label>
+                  <textarea id="comment" name="comment" class="form-input" required></textarea>
+                </div>
+                <button type="submit" class="form-submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </canvas>
+    <script src="matrix-js/script.js"></script>
+    <script src="matrix-js/script.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="typing.js"></script>
+</body>
+</html>

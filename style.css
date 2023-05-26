@@ -1,0 +1,163 @@
+    body {
+      margin: 0;
+      background-color: black;
+      color: white;
+    } 
+    section {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        margin:auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+      }
+      div {
+        overflow:auto;
+      }
+    
+
+
+    p {
+        color:rgb(0, 255, 38);
+    }
+
+      span {
+        color: rgb(0, 255, 38);
+        font-family: monospace;
+      }
+      
+      .blinker {
+        opacity: 1;
+        margin-bottom: -2px;
+        height: 15px;
+        margin-left: -5px;
+        border-left: 7px solid rgb(0, 255, 38);
+        animation: blinker 0.9s steps(2, start) infinite;
+      }
+      
+      @keyframes blinker {
+        to { 
+          visibility: hidden; 
+        }
+      }
+      
+    
+    .green-outline {
+      outline: 2px solid green;
+    }
+    
+    .hero-section {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .hero-heading {
+      font-size: 3rem;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    
+    
+    
+    .about-section {
+      background-color: black;
+      color: white;
+      padding: 5rem 0;
+    }
+    
+    .skills-section {
+      background-color: black;
+      color: white;
+      padding: 5rem 0;
+    }
+    
+    .skill-progress {
+      height: 20px;
+      background-color: #333;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    
+    .skill-progress-bar {
+      height: 100%;
+      background-color: rgb(0, 255, 38);
+      border-radius: 10px;
+    }
+    
+    .portfolio-section {
+      background-color: black;
+      color: white;
+      padding: 5rem 0;
+    }
+    
+    .portfolio-card {
+      width: 18rem;
+      margin: 1rem;
+      border: 2px solid rgb(0, 255, 38);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    
+    .portfolio-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    .portfolio-card-body {
+      padding: 1rem;
+    }
+    
+    .contact-section {
+      background-color: black;
+      color: rgb(0, 255, 38);
+      padding: 5rem 0;
+    }
+    
+    .contact-form {
+      max-width: 500px;
+      margin: 0;
+    }
+    
+    .form-label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    
+    .form-input {
+      width: 100%;
+      padding: 0.5rem;
+      border-radius: 5px;
+      border: none;
+      margin-bottom: 1rem;
+    }
+    
+    .form-submit {
+      padding: 0.5rem;
+      border: 5px;
+      border-radius: 5px;
+      border: none;
+      background-color: rgb(0, 255, 38);
+      color: black;
+      cursor: pointer;
+    }
+    
+    .form-submit:hover {
+      background-color: #00cc00;
+    }
+
+    #canvas {
+        position: absolute;
+        opacity: 0.2;
+        z-index: 1;
+      }
+      
+      
+      
+    
